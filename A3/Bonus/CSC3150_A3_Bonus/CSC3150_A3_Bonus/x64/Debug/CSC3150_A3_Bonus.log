@@ -1,0 +1,67 @@
+﻿  Compiling CUDA source file user_program.cu...
+  
+  D:\Bonus\CSC3150_A3_Bonus\CSC3150_A3_Bonus>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc140.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\user_program.cu.obj "D:\Bonus\CSC3150_A3_Bonus\CSC3150_A3_Bonus\user_program.cu" 
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(776): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt/device_functions.h(1636): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\device_double_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\sm_20_intrinsics.h(925): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  user_program.cu
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(831): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(1769): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(2624): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(3462): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(4411): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(5309): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(6217): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7097): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+c:\program files\nvidia gpu computing toolkit\cuda\v9.2\include\crt\math_functions.h(7901): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  
+  D:\Bonus\CSC3150_A3_Bonus\CSC3150_A3_Bonus>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -dlink -o x64\Debug\CSC3150_A3_Bonus.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_30,code=sm_30 -G --machine 64 x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj x64\Debug\virtual_memory.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  main.cu.obj
+  user_program.cu.obj
+  virtual_memory.cu.obj
+     Creating library D:\Bonus\CSC3150_A3_Bonus\x64\Debug\CSC3150_A3_Bonus.lib and object D:\Bonus\CSC3150_A3_Bonus\x64\Debug\CSC3150_A3_Bonus.exp
+  CSC3150_A3_Bonus.vcxproj -> D:\Bonus\CSC3150_A3_Bonus\x64\Debug\CSC3150_A3_Bonus.exe
+  CSC3150_A3_Bonus.vcxproj -> D:\Bonus\CSC3150_A3_Bonus\x64\Debug\CSC3150_A3_Bonus.pdb (Full PDB)

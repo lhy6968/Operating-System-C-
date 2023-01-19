@@ -1,0 +1,21 @@
+﻿  
+  D:\Source\CSC3150_A4\CSC3150_A4>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\bin\nvcc.exe" -dlink -o x64\Debug\CSC3150_A4.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.2\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_30,code=sm_30 -G --machine 64 x64\Debug\file_system.cu.obj x64\Debug\main.cu.obj x64\Debug\user_program.cu.obj 
+  cudart_static.lib
+  kernel32.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  file_system.cu.obj
+  main.cu.obj
+  user_program.cu.obj
+     Creating library D:\Source\CSC3150_A4\x64\Debug\CSC3150_A4.lib and object D:\Source\CSC3150_A4\x64\Debug\CSC3150_A4.exp
+  CSC3150_A4.vcxproj -> D:\Source\CSC3150_A4\x64\Debug\CSC3150_A4.exe
+  CSC3150_A4.vcxproj -> D:\Source\CSC3150_A4\x64\Debug\CSC3150_A4.pdb (Full PDB)
